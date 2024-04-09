@@ -1,0 +1,138 @@
+It was 2013, and we huddled with Brad Frost and Jennifer Brook around
+a sunlit kitchen table in Brooklyn. The four of us had just begun work
+on a new website for TechCrunch, and we were sketching wireframes
+in Jennifer’s apartment, wrestling with the new demands of responsive
+design. Brad pulled out his laptop: “I’ve been playing with a new idea.”
+Brad’s screen looked like a webpage had exploded. Bits and pieces of UI
+foated free of each other, untethered by a unifed design or hierarchy.
+It looked like a pile of spare parts from a web garage.
+Brad fashed his crazy grin and nodded, “Great, right?” The three of
+us stared back blankly. Somebody coughed.
+And then Brad Frost the front-end developer started talking like Brad
+Frost the chemist. He talked about atoms and molecules and organisms
+– about how large pieces of design can be broken down into smaller
+ones and even recombined into diferent large pieces. Instead
+of visualizing the fnished recipe for the design, in other words, he
+was showing us the ingredients. And we lit up: this was a shift in
+perspective, a way to move away from conceiving a website design as
+a collection of static page templates, and instead as a dynamic system
+of adaptable components. It was an inspired way to approach this
+responsive website – and all responsive projects for that matter.
+Brad’s new idea was atomic design, and it changed the way we work
+in this astonishingly multi-device world. By thinking about interfaces
+simultaneously at both the large (page) level as well as the small
+(atomic) level, we streamlined our process: we introduced more rigorous
+thought into the role of every element; we fell into habits that improved
+the consistency of our UX; and crucially, we started working much faster
+and more collaboratively. Atomic design was our superpower.
+In the early stages of the TechCrunch redesign, there was this moment
+where we talked about what we wanted the article page to be. Within
+an hour, Brad had a fully responsive version wired up from his kit of
+parts. That was the moment we realized just how quickly we were going
+to be able to move, a powerful case for investing in this clever, modular
+approach.
+Almost four years later, we haven’t looked back. Brad continued to
+refne his techniques and tools over the projects that followed, 
+
+including blockbuster sites for Entertainment Weekly and Time, Inc.
+We’ve used these lessons to help in-house product teams make
+sites faster and with higher quality, build massive design systems
+for organizations looking to centralize their design and development
+work across international ofces, and much more.
+Atomic design gave us speed, creative freedom, and fexibility.
+It changed everything. We think it will do the same for you, too.
+This wonderful book explains the philosophy, practice, and
+maintenance of atomic design systems. And it does so with the
+cheerful, helpful generosity that so describes Brad himself.
+Brad’s energy and big-hearted enthusiasm for the web and its
+makers are boundless. For years, Brad has worked at the forefront
+of responsive design technique – and he’s shared everything along
+the way. His This Is Responsive site is the go-to resource for fnding
+responsive solutions to any UX problem. His blog and Twitter feeds
+share his roadblocks and his solutions. When designers and developers
+follow Brad Frost, they get a fast and dense stream of practical,
+passionate insight for building beautiful and resilient websites.
+This book doubles down on all of that.
+Given the chance, Brad would knock on the door of every designer
+and developer to personally deliver his message. We’ve watched
+with astonishment (and mild envy) as this whirling dervish has
+barnstormed around the globe to share his advice with hundreds of
+teams and organizations across six continents. (Atomic design, coming
+soon to Antarctica!) But even Brad Frost can’t be everywhere at once,
+and we’re delighted that he’s detailed his ideas with such depth and
+good humor in this book.
+Atomic design is blowing up around the world; it transformed our
+design practice; and we’re excited for it to bring the same creative
+combustion to your process, too.
+- Josh Clark and Dan Mall, Brad’s frequent collaborators and his
+biggest fans
+A long, long time ago, there were these things called books.
+Remember them? These contraptions were heavy and bulky and
+made from the pulp of dead trees. Inside these books were things
+called pages. You turned them, and they cut your fngers.
+Awful things. I’m so glad these book things with their razor-sharp
+pages aren’t around anymore.
+Oh, wait The page has been with us for a long time now. A few millennia,
+actually. The frst books were thick slabs of clay created about 4,000
+years ago, soon replaced by scrolls as the preferred way to consume
+the written word. And while reading technology has come a long
+way – from papyrus to parchment to paperback to pixels – the
+concept of the page holds strong to this day.
+The page metaphor has been baked into the lexicon of the web since
+the very beginning. Tim Berners-Lee invented the World Wide Web
+so that he, his colleagues at CERN, and other academics could easily
+share and link together their world of documents. This documentbased, academic genesis of the web is why the concept of the page is
+so deeply ingrained in the vocabulary of the internet.
+So what?
+As we’ll discuss throughout this book, the way things are named
+very much impacts how they’re perceived and utilized. Thinking
+of the web as pages has real ramifcations on how people interact
+with web experiences, and infuences how we go about creating web
+interfaces.
+From the beginning, the page metaphor provided users with a
+familiar language with which to navigate this brave new World Wide
+Web. Concepts like bookmarking and pagination helped new web
+users explore and eventually master an entirely new medium using
+conventions they were already comfortable with. The page was – and continues to be – a very visible and helpful
+metaphor for the users of the web. It also has a profound infuence
+on how web experiences are created.
+In the early days of the web, companies looking to get online simply
+translated their printed materials onto their websites. But even
+though these brochure websites ofered a very one-dimensional
+perspective of what the web could ofer, viewing websites as digital
+representations of the printed page was easy for creators to wrap
+their heads around.
+But we’re now 25 years into this new medium, and this
+once necessary fgure of speech has overstayed its welcome.
+Unfortunately, the page metaphor continues to run deep with
+respect to how we scope and execute our web projects. Here are
+just a few examples I hear on a regular basis:
+“We’re a startup looking to launch a fve-page website
+this October…”
+“Brad, how long will the homepage take to build?”
+“How are we ever going to redesign this university website that
+contains over 30,000 pages?!” All of the statements above make the fundamental mistake of
+assuming a page is a uniform, isolated, quantifable thing. The
+reality is that the web is a fuid, interactive, interdependent
+medium. As soon as we come to terms with this fact, the notion
+of the page quickly erodes as a useful means to scope and create
+web experiences.
+How long will a homepage take to build? Well, that sort of depends
+on what’s on it, right? Maybe the homepage simply consists of a
+tagline and a background image, which means it could be done by
+lunch. Or maybe it’s chock-full of carousels, dynamic forms, and
+third-party integrations. In that case, maybe the homepage will
+take several months to complete.
+As for the 30,000-page university website, it might be tempting to
+declare, “Thousands of pages?! Wow, that sounds challenging!” But
+in reality, those 30,000 pages may consist of three content types
+and two overarching layouts.
+Ultimately, a project’s level of efort is much better determined by
+the functionality and components contained within those pages,
+rather than on the quantity of pages themselves.
+The page metaphor has served its purpose helping users familiarize
+themselves with the web, and provided creators with the necessary
+transitional language with which to create for a brand new medium.
+But to build thoughtful interfaces meant to be served to a multitude
+of connected devices, the time has come for us to evolve beyond
+the page.
