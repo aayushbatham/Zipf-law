@@ -19,7 +19,7 @@ Inspirted by the video of Vsauce on Youtube https://www.youtube.com/watch?v=fCn8
 1. Prepare a text file (.txt) containing the corpus you want to analyze.
 2. Place your text file (.txt) in the input-text folder
 3. Run the Python script `zipf.py`.
-4. The script will generate a plot visualizing Zipf's Law and save it as `zipf_law_plot.png` in the plots folder. It will also save the word frequencies as a JSON file (`zipf_law_plot.json`) in worc-freq folder.
+4. The script will generate a plot visualizing Zipf's Law and save it as `zipf_law_plot.png` in the plots folder. It will also save the word frequencies as a JSON file (`zipf_law_plot.json`) in word-freq folder.
 5. You can customize the plot appearance and other parameters in the Python script as needed.
 
 ## Example
